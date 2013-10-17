@@ -1,5 +1,5 @@
 cordova-plugin-recheck-screen-orientation
------------------------------------------
+=========================================
 
 This is a cordova / phonegap plugin which allows you to force a cordova app into a permitted orientation by forcing a re-check of `shouldRotateToOrientation`.
 
