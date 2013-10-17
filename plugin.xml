@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+           id="org.adlotto.cordova.recheck-screen-orientation"
+      version="0.1.0">
+    <name>RecheckScreenOrientation</name>
+
+    <js-module src="www/recheck_screen_orientation.js" name="RecheckScreenOrientation">
+        <clobbers target="cordova.recheckScreenOrientation" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="RecheckScreenOrientation">
+                <param name="ios-package" value="ALRecheckScreenOrientation"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/ALRecheckScreenOrientation.h" />
+        <source-file src="src/ios/ALRecheckScreenOrientation.m" />
+    </platform>
+</plugin>
