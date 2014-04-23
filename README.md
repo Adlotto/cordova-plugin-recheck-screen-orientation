@@ -13,7 +13,7 @@ window.shouldRotateToOrientation = function(orientation) {
       return true;
     }
   } else {
-    if orientation === 180 || orientation === -180) { // Portrait
+    if (orientation === 180 || orientation === -180) { // Portrait
       return true;
     }
   }
