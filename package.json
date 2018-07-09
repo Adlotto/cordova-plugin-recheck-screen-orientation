@@ -1,0 +1,25 @@
+{
+    "name": "cordova-plugin-recheck-screen-orientation",
+    "version": "1.0.0",
+    "description": "Force a iOS Cordova app into a permitted orientation",
+    "cordova": {
+        "id": "guided-access",
+        "platforms": [
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:apache/cordova-plugin-screen-orientation.git"
+    },
+    "keywords": [
+        "cordova",
+        "cordova-ios",
+        "screen-orientation"
+    ],
+    "author": "Adlotto",
+    "bugs": {
+        "url": "https://github.com/Adlotto/cordova-plugin-recheck-screen-orientation/issues"
+    },
+    "homepage": "https://github.com/Adlotto/cordova-plugin-recheck-screen-orientation"
+}
